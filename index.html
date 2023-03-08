@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DojoWeather</h1>
+        <nav>
+            <a href="#" onclick="mensaje(this)">Burbank</a>
+            <a href="#" onclick="mensaje(this)">Chicago</a>
+            <a href="#" onclick="mensaje(this)">Dallas</a>
+        </nav>
+    </header>
+    <main>
+        <ul>
+            <li><h1>San Jose</h1></li>
+            <li>
+                <p>Show temparature in 
+                    <select onchange="CambiaTemperature(this)">
+                        <option value="C">Grados Celsius</option>
+                        <option value="F">Grados Fahrenheit</option>
+                        <option value="K">Kelvin</option>
+                    </select>
+                </p>
+            </li>
+        </ul>
+        <article>
+            <section>
+                <ul>
+                    <li><p class="dia">Today</p></li>
+                    <li><img src="assets/some_rain.png" alt="cookie image"></li>
+                    <li><p class="clima">some rain</p></li>
+                    <li><span class="tRojo">24°</span><span class="tAzul">18°</span></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><p class="dia">Tomorrow</p></li>
+                    <li><img src="assets/some_sun.png" alt="cookie image"></li>
+                    <li><p class="clima">some sun</p></li>
+                    <li><span class="tRojo">27°</span><span class="tAzul">19°</span></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><p class="dia">Friday</p></li>
+                    <li><img src="assets/some_clouds.png" alt="cookie image"></li>
+                    <li><p class="clima">some sun</p></li>
+                    <li><span class="tRojo">21°</span><span class="tAzul">16°</span></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><p class="dia">Saturday</p></li>
+                    <li><img src="assets/some_sun.png" alt="cookie image"></li>
+                    <li><p class="clima">some sun</p></li>
+                    <li><span class="tRojo">26°</span><span class="tAzul">21°</span></li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <ul>
+            <li >
+                <img src="assets/cookie.png" alt="cookie image">
+            </li>
+            <li class="texto">
+                <p class="bolder">Stop! Cookie time</p>
+                <p>
+                    We use cookies (sadly not the adible ones) to personalize<br>content and ads, to provide social media features and to<br>analyse our traffic.<a href="">Read more...</a>
+                </p>
+            </li>
+            <li>
+                <button onclick="cerrar()">I Accept</button>
+            </li>
+        </ul>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>

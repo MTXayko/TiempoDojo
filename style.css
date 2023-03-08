@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: #000;  
+    height: 80px;   
+    display: flex;
+    justify-content: space-around;
+    line-height: 80px;
+}
+header h1{
+    color: #fff;
+     
+    font-size: 40px;
+}
+/* header nav{
+     
+} */
+header nav > a {
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+}
+main{  
+     width:900px;
+     margin: 20px auto;
+}
+main > ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    border-bottom: 2px solid #000;
+}
+main ul h1 {
+    font-size: 30px;
+}
+
+main article {
+    display: flex;  
+    justify-content:space-around;
+}
+article section{
+    width: 200px;
+}
+
+section ul{
+    margin-top:40px;
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    background-color: wheat;
+    padding: 20px 0;
+}
+section ul li{
+    padding: 10px 0;
+}
+
+section ul img{
+    width:150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.dia{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.clima{
+    font-size: 27px;
+    font-weight: bolder;
+}
+.tRojo{
+    font-size: 25px;
+    font-weight: bolder;
+    color: red;
+    padding-right: 10px;
+}
+.tAzul{
+    font-size: 25px;
+    font-weight: bolder;
+    color: blue;
+    padding-left: 10px;
+}
+ 
+footer{  
+    margin: 20px auto;
+    padding: 60px 0;
+    width:900px;
+}
+footer ul{
+    border: 2px solid #000;
+    width:896px;
+    background-color: wheat;
+    bottom: 20px;
+    position: fixed;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+footer ul li{
+    text-align: center;
+    flex: 2;
+}
+footer ul li.texto{
+    text-align: left;
+    flex: 5;
+}
+button{
+    background-color:deepskyblue;
+    width: 100px;
+    height: 40px;
+    box-shadow: 5px 5px 5px #000;
+    font-weight: bolder;
+    cursor: pointer;
+}
+footer p{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+footer p.bolder{
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 20px;
+}
